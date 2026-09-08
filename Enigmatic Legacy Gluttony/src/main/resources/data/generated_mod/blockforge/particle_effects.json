@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "effects": [
+    {
+      "id": "gluttony_devour_mist",
+      "target": "item:generated_mod:gluttony_sin",
+      "name": "吞噬：薄血雾与浅红气息",
+      "duration": 0.2,
+      "events": [
+        {
+          "at": 0.0,
+          "particle": "generated_mod:gluttony_mist",
+          "position": [
+            0,
+            0.9,
+            0
+          ],
+          "spread": [
+            0.45,
+            0.35,
+            0.45
+          ],
+          "speed": 0.02,
+          "count": 12,
+          "shape": "burst",
+          "radius": 1.0,
+          "life": 1.1,
+          "rise": 0.0,
+          "spin": 0.0,
+          "size": 1.0,
+          "repeat": 1,
+          "every": 0.05
+        },
+        {
+          "at": 0.0,
+          "particle": "generated_mod:gluttony_red_aura",
+          "position": [
+            0,
+            0.9,
+            0
+          ],
+          "spread": [
+            0.5,
+            0.2,
+            0.5
+          ],
+          "speed": 0.01,
+          "count": 9,
+          "shape": "burst",
+          "radius": 1.2,
+          "life": 1.1,
+          "rise": 0.0,
+          "spin": 0.0,
+          "size": 1.0,
+          "repeat": 1,
+          "every": 0.05
+        }
+      ]
+    },
+    {
+      "id": "gluttony_fly_in",
+      "target": "item:generated_mod:gluttony_sin",
+      "name": "吞噬：浅红光点吸入体内",
+      "duration": 0.9,
+      "events": [
+        {
+          "at": 0.0,
+          "particle": "generated_mod:gluttony_fly",
+          "position": [
+            0,
+            0.9,
+            0
+          ],
+          "spread": [
+            0.45,
+            0.6,
+            0.45
+          ],
+          "speed": 0.32,
+          "count": 6,
+          "shape": "burst",
+          "radius": 1.0,
+          "life": 1.8,
+          "rise": 0.0,
+          "spin": 0.0,
+          "size": 1.0,
+          "repeat": 18,
+          "every": 0.05
+        }
+      ]
+    }
+  ]
+}

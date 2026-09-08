@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "generated_mod:item/gluttony_sin"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "generated_mod:all_reversed": 1.0
+      },
+      "model": "generated_mod:item/gluttony_sin_creative"
+    }
+  ]
+}

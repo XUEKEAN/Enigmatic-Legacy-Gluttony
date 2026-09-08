@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "jar": "generated_mod-1.0.15-r35.jar",
+  "artifact_kind": "jar",
+  "source": "source.zip",
+  "tested": [
+    "resource guard",
+    "gradle build",
+    "final JAR resource validation"
+  ],
+  "not_tested": [
+    "client launch",
+    "dedicated server",
+    "multiplayer",
+    "in-game gameplay"
+  ],
+  "build": "passed",
+  "game_tested": false
+}

@@ -1,0 +1,11 @@
+{
+  "add_cosmetic": false,
+  "conditions": [],
+  "icon": "generated_mod:slot/empty_sin_of_gluttony_slot",
+  "operation": "SET",
+  "order": 250,
+  "render_toggle": true,
+  "replace": false,
+  "size": 1,
+  "use_native_gui": true
+}

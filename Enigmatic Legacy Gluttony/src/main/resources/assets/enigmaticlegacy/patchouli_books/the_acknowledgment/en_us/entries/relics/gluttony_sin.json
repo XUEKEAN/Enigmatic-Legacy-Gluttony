@@ -1,0 +1,31 @@
+{
+    "name": "book.generated_mod.entry.gluttony_sin.name",
+    "icon": "generated_mod:gluttony_sin",
+    "category": "enigmaticlegacy:relics",
+    "secret": false,
+    "priority": false,
+    "read_by_default": true,
+    "sortnum": 170,
+    "pages": [
+        {
+            "type": "text",
+            "text": "book.generated_mod.entry.gluttony_sin.page.1"
+        },
+        {
+            "type": "spotlight",
+            "item": "generated_mod:gluttony_sin",
+            "title": "book.generated_mod.entry.gluttony_sin.heading.normal",
+            "text": "book.generated_mod.entry.gluttony_sin.page.2"
+        },
+        {
+            "type": "spotlight",
+            "item": "generated_mod:gluttony_sin_creative",
+            "title": "book.generated_mod.entry.gluttony_sin.heading.creative",
+            "text": "book.generated_mod.entry.gluttony_sin.page.3"
+        },
+        {
+            "type": "text",
+            "text": "book.generated_mod.entry.gluttony_sin.page.4"
+        }
+    ]
+}

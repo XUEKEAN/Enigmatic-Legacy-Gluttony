@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="AutoMods, XK"
+description='''神秘遗物暴食附属 / Enigmatic Legacy: Gluttony：
+- 使用可配置的吞噬按键吞噬弱于自身的生物，永久成长生命与攻击
+- 默认吞噬按键为空手右键，改绑后不要求空手
+- 背负双重诅咒，佩戴七咒之戒方可触发
+- 创造版暴食原罪：无任何诅咒，吞噬无任何条件
+- Farmer's Delight 联动：吞噬击杀复刻刀具额外掉落
+- 按住 Alt 查看反转详情，按住 Shift 查看累计成长详情'''
+[[dependencies.${mod_id}]]
+modId="forge"
+mandatory=true
+versionRange="[${forge_version},)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.${mod_id}]]
+modId="minecraft"
+mandatory=true
+versionRange="[${minecraft_version}]"
+ordering="NONE"
+side="BOTH"
+[[dependencies.${mod_id}]]
+modId="curios"
+mandatory=true
+versionRange="[5.14.1,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.${mod_id}]]
+modId="enigmaticlegacy"
+mandatory=false
+versionRange="[2.30.1,)"
+ordering="NONE"
+side="BOTH"
